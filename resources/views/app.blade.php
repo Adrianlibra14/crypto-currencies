@@ -42,7 +42,7 @@
         </div>
     </header>
     <div class="mt-5 mx-2 mx-md-5">
-        <table class="table table-light table-hover table-responsive">
+        <table class="table table-light table-hover table-responsive-md">
             <thead class="bg-secondary text-light">
                 <tr>
                     <th scope="col">Name</th>

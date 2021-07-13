@@ -5,6 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Page icon -->
+    <link rel="site icon" type="image/png" href="{{ asset('/img/bitcoin.png') }}">
+    <link rel="site icon" sizes="192x192" href="{{ asset('/img/bitcoin.png') }}">
+
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
 
@@ -36,8 +41,8 @@
             </div>
         </div>
     </header>
-    <div class="mt-5 mx-5">
-        <table class="table table-light table-hover">
+    <div class="mt-5 mx-2 mx-md-5">
+        <table class="table table-light table-hover table-responsive">
             <thead class="bg-secondary text-light">
                 <tr>
                     <th scope="col">Name</th>
@@ -125,7 +130,7 @@
     </div>
 
     <script>
-
+        // Set events to click and redirect
         document.getElementById('row-bitcoin').onclick = function() {
             location.href = '{{route('home.show', $bitcoin['id'])}}';
         }

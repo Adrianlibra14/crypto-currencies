@@ -145,7 +145,7 @@
             </div>
         </div>
     </header>
-    <div class="mx-5 mt-3 bg-secondary text-light">
+    <div class="mx-2 mx-md-5 mt-3 bg-secondary text-light">
         <div class="container-fluid">
             <div id="content-loading" class="d-flex justify-content-center py-4">
                 <div class="lds-roller">
@@ -162,11 +162,11 @@
         </div>
         <div id="content-wrapper" class="d-none">
             <div class="row justify-content-center align-items-center py-4">
-                <div class="col-6 ml-5 ">
+                <div class="col-12 ml-5 ml-md-5 col-md-6">
                     <h2 id="cryptoName"></h2>
                     <h4 id="cryptoCurrentDate">12 july 2021</h4>
                 </div>
-                <div class="col-5">
+                <div class="col-12 ml-4 ml-md-0 col-md-5">
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-6">

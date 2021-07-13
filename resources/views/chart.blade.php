@@ -5,6 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Page icon -->
+    <link rel="site icon" type="image/png" href="{{ asset('/img/bitcoin.png') }}">
+    <link rel="site icon" sizes="192x192" href="{{ asset('/img/bitcoin.png') }}">
+
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
 

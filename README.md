@@ -43,7 +43,7 @@ Una aplicación sencilla que muestra 5 criptomonedas
 - Composer
 - NodeJS
 
-## Instrucciones
+### Instrucciones
 
 Para iniciar el proyecto, primero renombra **.env.example** a **.env** y crea un archivo en la carpeta de *database* llamado **database.sqlite**. Luego ejecuta:
 
